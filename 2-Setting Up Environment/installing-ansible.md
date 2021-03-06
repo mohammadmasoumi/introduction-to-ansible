@@ -26,6 +26,6 @@
  - Installing **pip** and **ansible**.
    ```shell
    sudo apt install python3-pip
-   sudo pip install ansible
+   sudo pip3 install ansible
    ```
 
