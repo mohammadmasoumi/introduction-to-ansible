@@ -23,6 +23,9 @@
    # verify python alternatives
    python -V
    ```
-
  - Installing **pip** and **ansible**.
+   ```shell
+   sudo easy_install pip
+   sudo pip install ansible
+   ```
 
