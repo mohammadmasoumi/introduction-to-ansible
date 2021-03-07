@@ -28,4 +28,8 @@
    sudo apt install python3-pip
    sudo pip3 install ansible
    ```
-
+ - Ansible hosts
+   ```shell
+   ansible -i inventory/hosts.conf --list-hosts all
+   ```
+   
