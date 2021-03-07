@@ -3,6 +3,12 @@
 ### Inventory File
 
  - hosts-dev 
-    ```shell
-    
-    ```
+   ```shell
+   # hosts-dev
+   [webservers]
+   app.server.1:3435 # define specific port
+   app.server.2
+   
+   [loadbalancers]
+   lb load.balancer.server.1=12.34.54.23 # define aliases
+   ```
