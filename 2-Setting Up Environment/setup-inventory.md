@@ -1,3 +1,3 @@
 # Setup inventory
 
-setup three servers. one master and two slaves.
+setup two app-servers and one load balancer.
