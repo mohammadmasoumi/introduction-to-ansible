@@ -12,3 +12,6 @@
    [loadbalancers]
    lb load.balancer.server.1=12.34.54.23 # define aliases
    ```
+ - default Ansible inventory is located in the
+   ```etc/ansible/hosts```
+   
