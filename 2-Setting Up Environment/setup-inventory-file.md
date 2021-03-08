@@ -14,5 +14,8 @@
    ```
  - default Ansible inventory is located in the
    ```etc/ansible/hosts```
- - reference a different inventory by using the `-i <path>` option in the commandline. 
-
+ - reference a different inventory by using the `-i <path>` option in the commandline.
+ - list hosts
+   ```shell
+   
+   ```
