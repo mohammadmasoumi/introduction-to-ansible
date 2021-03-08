@@ -1,0 +1,9 @@
+[webservers]
+app1 ansible_connection=local
+mmasoumi3
+
+[loadbalancers]
+mmasoumi1
+
+[local]
+control ansible_connection=local
