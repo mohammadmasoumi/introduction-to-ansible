@@ -17,5 +17,7 @@
  - reference a different inventory by using the `-i <path>` option in the commandline.
  - list hosts
    ```shell
-   
+   ansible --list-hosts all 
+   ansible --list-hosts all -i ./inventory/hosts.conf
+   ansible --list-hosts all -i ./hosts-dev
    ```
